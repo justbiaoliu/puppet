@@ -17,7 +17,7 @@ rvm:
 env:
   - "CHECK=parallel:spec\\[2\\]"
   - "CHECK=rubocop"
-  - "CHECK=commits"
+  #- "CHECK=commits"
 
 matrix:
   exclude:
